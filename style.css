@@ -235,10 +235,10 @@ button {
   background-color:  #f5eddd;
 }
 
-.abt-card h5, .abt3-top h3{
+.abt-card h5{
   font-family: AlegreyaSans-Bold,sans-serif;
 }
-.abt-card p, .abt3-top p{
+.abt-card p{
   text-align:justify;
   font-size: 0.8rem;
   font-family: lato, sans-serif;
@@ -417,12 +417,19 @@ button {
   border-radius: 1rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   background-color:  #f5eddd; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .abt3-top h3{
+  border: 1px solid black;
+  color:#020202 ;
   font-family: AlegreyaSans-Bold,sans-serif;
 }
 .abt3-top p{
+  color:#020202 ;
+  border: 1px solid black;
   text-align:justify;
   font-size: 0.8rem;
   font-family: lato, sans-serif;
