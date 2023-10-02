@@ -64,7 +64,7 @@ body{
   width: 100%;
   height: 80vh;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: rockoultraflf, lato;
   /* display: flex;
   flex-direction: column;
@@ -79,7 +79,6 @@ input{
   background-color:#65ba90;
   width: 100%;
   height: 2rem;
-  /* z-index: -1; */
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {

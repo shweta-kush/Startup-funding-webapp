@@ -306,7 +306,6 @@ button {
 }
 .abt2-social{
     display: grid;
-    /* transform: translatey(1rem); */
     border: 1px solid black;
     height: 50%;
     width: 80%;
@@ -314,8 +313,8 @@ button {
     font-family: "Poppins", sans-serif;
     place-items: center;
     background: linear-gradient(315deg, #ffffff, #4da7e1);
-    /* background: linear-gradient(315deg, #ffffff, #d7e1ec); */
 }
+
 
 .wrapper {
   display: inline-flex;
@@ -378,11 +377,6 @@ button {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.abt2-col2 a{
-  text-decoration: none;
-  font-family: lato,sans-serif;
-  cursor: pointer;
-}
 .facebook {
   --color: #1877f2;
 }
@@ -405,7 +399,11 @@ button {
   background: var(--color);
   color: white;
 }
-
+ 
+.wrapper .icon a {
+  text-decoration: none;
+  color: inherit; 
+}
 
 /* abt 3 */
 .abt3 {
