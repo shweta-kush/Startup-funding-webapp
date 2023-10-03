@@ -48,7 +48,6 @@ body{
   border-radius: 2rem;
   background-color: #f5eddd;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-  /* box-sizing: border-box; */
   width: 30vw;
   height: 80vh;
   display: flex;
@@ -79,24 +78,66 @@ input{
   cursor: pointer;
   margin-top: 4rem;
 }
+
+
 @media screen and (max-width: 1200px) {
-  .nameinput {
-    width: 600px;
-    height: 86px;
+  .d2form {
+    width: 30vw;
+    height: 1200px;
   }
+  
+.formbox {
+  width: 80%;
+  height: 80vh;
+}
+input{
+  width: 15rem;
+}
+
+.login{
+  width: 100%;
+  height: 2rem;
+  margin-top: 4rem;
+}
 }
 @media screen and (max-width: 960px) {
   .d2form {
-    width: 800px;
+    width: 30vw;
     height: 1200px;
   }
+    
+.formbox {
+  width: 80%;
+  height: 80vh;
+}
+input{
+  width: 15rem;
+}
+
+.login{
+  width: 100%;
+  height: 2rem;
+  margin-top: 4rem;
+}
 }
 @media screen and (max-width: 420px) {
-  .nameinput {
-    height: 860px;
-  }
   .d2form {
-    width: 320px;
-    height: 400px;
+    width: 40vw;
+    height: 1200px;
   }
+    
+.formbox {
+  width: 80%;
+  height: 80vh;
+}
+input{
+  width: 15rem;
+}
+
+.login{
+  width: 100%;
+  height: 2rem;
+  margin-top: 4rem;
+}
+  
 }
