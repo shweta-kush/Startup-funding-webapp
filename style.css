@@ -181,7 +181,7 @@ button {
   top: 2.5rem;
   background:  #e17c58;
   color: white;
-  height: 1.6rem;
+  height: 2rem;
   width: 20rem;
   padding: 0 0;
   font-size: 1.5rem;
@@ -203,8 +203,8 @@ button {
   flex-direction: column;
   height: 100%;
   width: 74vw;
-  background-color: #f5eddd;
-  z-index: -100;
+  /* background-color: #f5eddd; */
+  /* z-index: -100; */
   
 }
 
@@ -255,7 +255,7 @@ button {
   border-radius: 50%;
   margin-bottom: 2.8rem;
 }
-#abt-card-box{
+.abt-card-box{
   border: 1px solid black;
   background-color:  #e17c58;
   height: 2rem;
@@ -269,8 +269,20 @@ button {
 
 }
 #abtcardpartners{
+  /* display: flex;
+  flex-direction: row; */
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#abtcardpartners img{
+  height: 5rem;
+  width: 4rem;
 }
 
 .abt2 {
@@ -416,45 +428,79 @@ button {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   background-color:  #f5eddd; 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
 }
 
-.abt3-top h3{
-  border: 1px solid black;
+.abt3-top h2{
   color:#020202 ;
   font-family: AlegreyaSans-Bold,sans-serif;
 }
 .abt3-top p{
   color:#020202 ;
-  border: 1px solid black;
   text-align:justify;
   font-size: 0.8rem;
   font-family: lato, sans-serif;
 }
+.steps{
+  font-family: lato, sans-serif;
+  font-size: 0.8rem;
+
+  color: #020202;
+  /* display:flex; */
+
+}
+.steps li {
+  margin-bottom: 0.3rem; 
+}
+.know-more{
+  font-weight: 500;
+  padding: 4px 22px;
+  background-color: transparent;
+  color: #65ba90;
+  border-radius: 10px;
+  border: 2px solid #65ba90;
+  transition: 0.2s;
+}
+.know-more:hover {
+  background-color: #65ba90;
+  color: white;
+}
+
 /* Event gallery */
 #event-head{
-  /* justify-content: left; */
-  transform: translateX(-38rem);
-  /* transform: translatey(-5rem); */
+  /* transform: translateX(-38rem); */
+  margin-left: -38rem;
 }
-.cards-box{
+/* .cards-box{
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   
+} */
+.cards-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  
 }
 /* cards style */
 .card {
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
   border-radius: 1rem;
   height: 20rem;
+  width: 14rem;
   background: #f5eddd;
-  width: 12rem;
   display: flex;
   position: relative;
   padding: 0 0;
