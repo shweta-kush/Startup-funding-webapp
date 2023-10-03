@@ -24,7 +24,6 @@ body {
   padding: 0;
   font-family: rockoultraflf,Lato;
   background-color: #f5eddd;
-  /* background-color: black; */
   color: #d4dbe4;
   align-items: center;
 }
@@ -203,9 +202,6 @@ button {
   flex-direction: column;
   height: 100%;
   width: 74vw;
-  /* background-color: #f5eddd; */
-  /* z-index: -100; */
-  
 }
 
 .abt1{
@@ -231,7 +227,6 @@ button {
   align-items: center;
   color: #020202;
   width: 11rem;
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   background-color:  #f5eddd;
 }
 
@@ -269,8 +264,6 @@ button {
 
 }
 #abtcardpartners{
-  /* display: flex;
-  flex-direction: row; */
   display: flex;
   flex-wrap: wrap;
   gap: 0.2rem;
@@ -286,7 +279,6 @@ button {
 }
 
 .abt2 {
-  /* margin-bottom: -1rem; */
   background-color:  #f5eddd;
   height: 25vh;
   width: 100%;
@@ -447,9 +439,7 @@ button {
 .steps{
   font-family: lato, sans-serif;
   font-size: 0.8rem;
-
   color: #020202;
-  /* display:flex; */
 
 }
 .steps li {
@@ -471,17 +461,8 @@ button {
 
 /* Event gallery */
 #event-head{
-  /* transform: translateX(-38rem); */
   margin-left: -38rem;
 }
-/* .cards-box{
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  
-} */
 .cards-box{
   display: flex;
   flex-wrap: wrap;
@@ -509,7 +490,6 @@ button {
   align-items: center;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
